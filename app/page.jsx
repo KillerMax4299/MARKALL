@@ -1,10 +1,10 @@
-'use client'
-import { use } from 'react'
+import Main from './components/main/Main'
 
 export default function Home() {
   return (
     <main>
-      <div></div>
+      <Main/>
     </main>
   )
 }
+
