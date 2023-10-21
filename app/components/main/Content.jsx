@@ -7,8 +7,8 @@ const Content = () => {
   return (
     <>
       <div className="flex bg-black text-white h-[35rem] ">
-        <div className="w-1/2 flex p-20 pr-5">
-          <div className=" flex flex-col items-center space-y-14 justify-center">
+        <div className="w-1/2 flex p-20 ">
+          <div className=" flex flex-col items-end space-y-12 justify-center">
             <div className="text-7xl font-bold tracking-tighter w-5/6">
               <h1>
                 Reach your -{" "}
@@ -27,7 +27,7 @@ const Content = () => {
                 <button className="transition-all duration-200 active:scale-95 hover:text-green-300 hover:bg-black capitalize py-1 rounded-lg text-black border-2 border-green-400 bg-green-400 w-fit px-4">
                   get started
                 </button>
-                <button className="transition-all duration-200 active:scale-95 hover:bg-neutral-300 hover:text-black flex items-center space-x-2 capitalize py-1 rounded-lg border bg-black w-fit px-4">
+                <button className="transition-all duration-200 active:scale-95 hover:bg-neutral-300 hover:text-black flex items-center space-x-2 capitalize py-1 rounded-lg border-2 bg-black w-fit px-4">
                   <HiPlay />
                   <span>watch demo</span>
                 </button>
@@ -35,7 +35,7 @@ const Content = () => {
             </div>
           </div>
         </div>
-        <div className="relative w-1/2 flex justify-center items-center">
+        <div className="relative w-1/2 flex justify-start p-20 items-center">
           <div className="absolute border-2 border-neutral-700 w-[579px] h-[386px] translate-x-10 -translate-y-10" />
           <span className="z-10">
             <Image

@@ -19,7 +19,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className="w-1/5 flex justify-end items-center px-2">
-          <button className="h-fit font-medium text-lg py-2 transition-all duration-200 scale-90 hover:text-green-300 hover:bg-black capitalize rounded-lg text-black border-2 border-green-400 bg-green-400 w-fit px-6">
+          <button className="h-fit font-semibold text-md py-[2px] transition-all duration-200 active:scale-95 hover:text-green-300 hover:bg-black capitalize rounded-md text-black border-2 border-green-400 bg-green-400 w-fit px-6">
             get started
           </button>
         </div>
