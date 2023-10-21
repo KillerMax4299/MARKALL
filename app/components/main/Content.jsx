@@ -6,7 +6,7 @@ import { HiPlay } from "react-icons/hi2";
 const Content = () => {
   return (
     <>
-      <div className="flex bg-black text-white h-[35rem] ">
+      <div className="flex bg-black text-white h-[45rem] rounded-bl-[6rem]">
         <div className="w-1/2 flex p-20 ">
           <div className=" flex flex-col items-end space-y-12 justify-center">
             <div className="text-7xl font-bold tracking-tighter w-5/6">
