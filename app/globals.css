@@ -2,4 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+/* styles.css */
+/* Hide the scrollbar for the entire page */
+::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+/* Hide the scrollbar track */
+::-webkit-scrollbar-track {
+  width: 0 !important;
+}
+
+/* Hide the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  width: 0 !important;
+}
+
+/* Hide the scrollbar corner */
+::-webkit-scrollbar-corner {
+  display: none !important;
+}
 

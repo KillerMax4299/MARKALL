@@ -1,10 +1,12 @@
 import Main from './components/main/Main'
-import Image from 'next/image'
+import Section from './components/section/Section';
+
 
 export default function Home() {
   return (
     <main>
       <Main />
+      <Section />
     </main>
   );
 }
