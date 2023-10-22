@@ -109,11 +109,8 @@ const Data = ({ input }) => {
   }, []); 
 
   async function senddata() {
-    console.log(process.env.API_URL);
-    const result = await axios.post(
-      "http://localhost:5000/sendemail",
-      input
-    );
+    console.log(process.env.NEXT_PUBLIC_API_URL);
+    const result = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}sendemail`, input);
     setResult(result.data)
   }
 
