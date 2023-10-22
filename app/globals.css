@@ -22,4 +22,6 @@
 ::-webkit-scrollbar-corner {
   display: none !important;
 }
-
+input{
+  outline: none;
+}
