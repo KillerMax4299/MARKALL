@@ -13,7 +13,7 @@ const Navbar = () => {
           <Elements text="about us" />
         </div>
         <div className="w-1/5 flex justify-end items-center px-4">
-          <button className="h-fit font-semibold text-md py-[2px] transition-all duration-200 active:scale-95 hover:text-green-300 hover:bg-black capitalize rounded-md text-black border-2 border-green-400 bg-green-400 w-fit px-6">
+          <button className="h-fit font-semibold text-md py-[2px] transition-all duration-200 active:scale-95 hover:text-green-300 hover:bg-transparent capitalize rounded-md text-black border-2 border-green-400 bg-green-400 w-fit px-6">
             get started
           </button>
         </div>
